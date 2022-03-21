@@ -3,7 +3,7 @@
 #include <cmath>
 #include <iomanip>
 
-#include "Shooting.h"
+#include "../Shooting.h"
 
 
 using namespace std;

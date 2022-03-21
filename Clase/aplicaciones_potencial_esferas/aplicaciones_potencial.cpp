@@ -3,7 +3,7 @@
 #include <cmath>
 #include <iomanip>
 
-#include "Shooting.h"
+#include "../Shooting.h"
 
 //Burden, Numerical Analysis §11.1 Problema 7
 using namespace std;

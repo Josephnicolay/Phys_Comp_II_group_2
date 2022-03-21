@@ -3,7 +3,7 @@
 #include <cmath>
 #include <iomanip>
 
-#include "Shooting.h"
+#include "../Shooting.h"
 
 //Problemas con simetria Axial para modelos tipo Hidrógeno
 using namespace std;
