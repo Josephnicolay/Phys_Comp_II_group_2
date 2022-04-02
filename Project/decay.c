@@ -15,7 +15,7 @@ int atom , time , number , nloop ;
 double decay ;
 
 FILE * output ; // save data in decay.dat
-output = fopen ("decay1.dat" ,"w") ;
+output = fopen ("decay.dat" ,"w") ;
 number = nloop = max ; // initial value
 
 //seed number generator
@@ -27,12 +27,12 @@ for ( time = 0; time<=time_max ; time ++) {
 	for ( atom = 1; atom<=number ; atom++) {
 		decay = drand48 ( ) ;
 		if ( decay < lambda ){
-		nloop=nloop-1;
+		nloop--;
 		} // an atom decays
 	}
 	number = nloop ;
 	fprintf ( output , "%d\t%f\n" , time , ( double ) number) ;
 }
-printf ("data stored in decay1.dat\n") ;
+printf ("data stored in decay.dat\n") ;
 fclose(output);
 }
