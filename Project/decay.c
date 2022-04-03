@@ -3,8 +3,8 @@
 
 #define drand48 1.0/RAND_MAX*rand
 #define srand48 srand
-#define lambda 0.01 // the decay constant
-#define max 1000 // number of atoms at t =0
+#define lambda 0.04 // the decay constant
+#define max 1250 // number of atoms at t =0
 #define time_max 500 // time range
 #define seed 68111 // seed for number generator
 
