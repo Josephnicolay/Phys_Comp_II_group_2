@@ -136,6 +136,114 @@ sim/fast:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
 .PHONY : sim/fast
 
+action.o: action.cc.o
+
+.PHONY : action.o
+
+# target to build an object file
+action.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.o
+.PHONY : action.cc.o
+
+action.i: action.cc.i
+
+.PHONY : action.i
+
+# target to preprocess a source file
+action.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.i
+.PHONY : action.cc.i
+
+action.s: action.cc.s
+
+.PHONY : action.s
+
+# target to generate assembly for a file
+action.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.s
+.PHONY : action.cc.s
+
+construction.o: construction.cc.o
+
+.PHONY : construction.o
+
+# target to build an object file
+construction.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.o
+.PHONY : construction.cc.o
+
+construction.i: construction.cc.i
+
+.PHONY : construction.i
+
+# target to preprocess a source file
+construction.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.i
+.PHONY : construction.cc.i
+
+construction.s: construction.cc.s
+
+.PHONY : construction.s
+
+# target to generate assembly for a file
+construction.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.s
+.PHONY : construction.cc.s
+
+generator.o: generator.cc.o
+
+.PHONY : generator.o
+
+# target to build an object file
+generator.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.o
+.PHONY : generator.cc.o
+
+generator.i: generator.cc.i
+
+.PHONY : generator.i
+
+# target to preprocess a source file
+generator.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.i
+.PHONY : generator.cc.i
+
+generator.s: generator.cc.s
+
+.PHONY : generator.s
+
+# target to generate assembly for a file
+generator.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.s
+.PHONY : generator.cc.s
+
+physics.o: physics.cc.o
+
+.PHONY : physics.o
+
+# target to build an object file
+physics.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.o
+.PHONY : physics.cc.o
+
+physics.i: physics.cc.i
+
+.PHONY : physics.i
+
+# target to preprocess a source file
+physics.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.i
+.PHONY : physics.cc.i
+
+physics.s: physics.cc.s
+
+.PHONY : physics.s
+
+# target to generate assembly for a file
+physics.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.s
+.PHONY : physics.cc.s
+
 sim.o: sim.cc.o
 
 .PHONY : sim.o
@@ -173,6 +281,18 @@ help:
 	@echo "... simulation"
 	@echo "... edit_cache"
 	@echo "... sim"
+	@echo "... action.o"
+	@echo "... action.i"
+	@echo "... action.s"
+	@echo "... construction.o"
+	@echo "... construction.i"
+	@echo "... construction.s"
+	@echo "... generator.o"
+	@echo "... generator.i"
+	@echo "... generator.s"
+	@echo "... physics.o"
+	@echo "... physics.i"
+	@echo "... physics.s"
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"
