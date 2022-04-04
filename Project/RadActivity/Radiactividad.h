@@ -11,4 +11,4 @@ float Analitic(int, float, float);
 
 void mcSim(int, float, float, float ,int, vector<float> &, vector<float> &);
 
-void Archivo(int, vector<int>, vector<int>);
+void Archivo(int, vector<float>, vector<float>);

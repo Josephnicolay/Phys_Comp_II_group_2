@@ -1,4 +1,4 @@
-#include <Radiactividad.h>
+#include "Radiactividad.h"
 
 using namespace std;
 
@@ -45,7 +45,7 @@ void mcSim(int N0, float t_half_rad, float t_half_act, float tf, int maxPoints, 
 }
 
 
-void Archivo(int Ttotal, vector<int> v1, vector<int> v2){
+void Archivo(int Ttotal, vector<float> v1, vector<float> v2){
 
     ofstream outFile;
     outFile.open ("population.txt");
