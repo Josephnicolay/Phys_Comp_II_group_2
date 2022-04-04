@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cmath>
 #include <bits/stdc++.h>
+#include <fstream>
 
 using namespace std;
 
@@ -23,10 +24,28 @@ vector<float> PopulationRad(n_timepoints,0);
 vector<float> PopulationAct(n_timepoints,0);
 
 mcSim(N0, t_half_rad, t_half_act, t1, n_timepoints, PopulationRad, PopulationAct);
+    
+ofstream outFile;
+outFile.open ("population.txt");
+    
+outFile << left << setw(5) << "time" << setw(8) << "PopRad" << setw(8) << "PopAct" << endl;
+    
+int cont = 0;
+    
+while(cont < n_timepoints){
+    
+    outFile << left << setw(5) << cont << setw(8) << PopulationRad[cont] << setw(8) << PopulationAct[cont] << endl;
+        
+        cont++;
+    
+}
+    
+outFile.close();
 
 for (int i=0; i<n_timepoints; i++){
+ 
 
-	cout << PopulationRad[i]<<" | "<< PopulationAct[i]<<endl;
+	cout << i << " "<<PopulationRad[i]<<" | "<< PopulationAct[i]<<endl;
 
 }
 
@@ -50,7 +69,7 @@ void mcSim(int N0, float t_half_rad, float t_half_act, float tf, int maxPoints, 
 
 	for (int i=0; i<maxPoints;i++){
 	
-		PopulationRad[i] = count(atoms1.begin(),atoms.end(),1);
+		PopulationRad[i] = count(atoms1.begin(),atoms1.end(),1);
 		PopulationAct[i] = count(atoms2.begin(),atoms2.end(),2);
 		
 		for (int j=0; j<N0; j++){
