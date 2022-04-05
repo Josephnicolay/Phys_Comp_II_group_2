@@ -7,8 +7,8 @@
 
 using namespace std;
 
-float Analitic(int, float, float);
+void Analitic(float (*funct)(float, float, float), float, float, float, float, int, string);
 
 void mcSim(int, float, float, float ,int, vector<float> &, vector<float> &);
 
-void Archivo(int, vector<float>, vector<float>);
+void Archivo(int, int, vector<float>, vector<float>);
