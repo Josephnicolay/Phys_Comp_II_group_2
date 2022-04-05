@@ -2,6 +2,13 @@
 
 using namespace std;
 
+float Bateman(float t, float P, float thalf){
+
+    float tau_half = thalf / log(2.);
+    return - P / tau_half;
+    
+}
+
 int main(){
 
     //initial conditions
@@ -16,6 +23,6 @@ int main(){
     
     mcSim(N0, t_half_rad, t_half_act, t1, n_timepoints, PopulationRad, PopulationAct);
     
-    Archivo(n_timepoints, PopulationRad, PopulationAct);
-
+    Archivo(t1, n_timepoints, PopulationRad, PopulationAct);
+ 
 }
