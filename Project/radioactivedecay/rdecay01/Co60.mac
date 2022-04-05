@@ -5,7 +5,7 @@
 /run/verbose 1
 #
 /gun/particle ion
-/gun/ion 88 228
+/gun/ion 27 60
 #
 /tracking/verbose 2
 /run/beamOn 1
