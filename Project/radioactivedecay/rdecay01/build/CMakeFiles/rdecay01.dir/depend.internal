@@ -359,7 +359,7 @@ CMakeFiles/rdecay01.dir/rdecay01.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tls.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkdefs.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkgdefs.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/rdecay01.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/rdecay01.cc
 CMakeFiles/rdecay01.dir/src/ActionInitialization.cc.o
  ../include/ActionInitialization.hh
  ../include/EventAction.hh
@@ -402,7 +402,7 @@ CMakeFiles/rdecay01.dir/src/ActionInitialization.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/pwdefs.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/templates.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tls.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/ActionInitialization.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/ActionInitialization.cc
 CMakeFiles/rdecay01.dir/src/DetectorConstruction.cc.o
  ../include/DetectorConstruction.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
@@ -513,7 +513,7 @@ CMakeFiles/rdecay01.dir/src/DetectorConstruction.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/globals.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/templates.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tls.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/DetectorConstruction.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/DetectorConstruction.cc
 CMakeFiles/rdecay01.dir/src/EventAction.cc.o
  ../include/EventAction.hh
  ../include/HistoManager.hh
@@ -832,7 +832,7 @@ CMakeFiles/rdecay01.dir/src/EventAction.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/typedefs
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkdefs.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkgdefs.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/EventAction.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/EventAction.cc
 CMakeFiles/rdecay01.dir/src/HistoManager.cc.o
  ../include/HistoManager.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/CLHEP/Utility/defs.h
@@ -922,7 +922,7 @@ CMakeFiles/rdecay01.dir/src/HistoManager.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/mem
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/ntuple_booking
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/typedefs
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/HistoManager.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/HistoManager.cc
 CMakeFiles/rdecay01.dir/src/PhysicsList.cc.o
  ../include/PhysicsList.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/CLHEP/Random/DualRand.h
@@ -1246,7 +1246,7 @@ CMakeFiles/rdecay01.dir/src/PhysicsList.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/templates.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tls.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkdefs.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/PhysicsList.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/PhysicsList.cc
 CMakeFiles/rdecay01.dir/src/PrimaryGeneratorAction.cc.o
  ../include/PrimaryGeneratorAction.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/CLHEP/Random/DualRand.h
@@ -1349,7 +1349,7 @@ CMakeFiles/rdecay01.dir/src/PrimaryGeneratorAction.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/pwdefs.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/templates.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tls.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/PrimaryGeneratorAction.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/PrimaryGeneratorAction.cc
 CMakeFiles/rdecay01.dir/src/Run.cc.o
  ../include/HistoManager.hh
  ../include/PrimaryGeneratorAction.hh
@@ -1589,7 +1589,7 @@ CMakeFiles/rdecay01.dir/src/Run.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/ntuple_booking
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/typedefs
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkdefs.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/Run.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/Run.cc
 CMakeFiles/rdecay01.dir/src/RunAction.cc.o
  ../include/HistoManager.hh
  ../include/PrimaryGeneratorAction.hh
@@ -1831,7 +1831,7 @@ CMakeFiles/rdecay01.dir/src/RunAction.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/ntuple_booking
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/typedefs
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkdefs.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/RunAction.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/RunAction.cc
 CMakeFiles/rdecay01.dir/src/TrackingAction.cc.o
  ../include/EventAction.hh
  ../include/HistoManager.hh
@@ -2256,7 +2256,7 @@ CMakeFiles/rdecay01.dir/src/TrackingAction.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tools/typedefs
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkdefs.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/trkgdefs.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/TrackingAction.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/TrackingAction.cc
 CMakeFiles/rdecay01.dir/src/TrackingMessenger.cc.o
  ../include/TrackingAction.hh
  ../include/TrackingMessenger.hh
@@ -2284,4 +2284,4 @@ CMakeFiles/rdecay01.dir/src/TrackingMessenger.cc.o
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/globals.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/templates.hh
  /home/joseph/Geant4/geant4-v11.0.1-install/include/Geant4/tls.hh
- /home/joseph/Geant4/geant4-v11.0.1/examples/extended/radioactivedecay/rdecay01/src/TrackingMessenger.cc
+ /home/joseph/Phys_Comp_II_group_2/Project/radioactivedecay/rdecay01/src/TrackingMessenger.cc
