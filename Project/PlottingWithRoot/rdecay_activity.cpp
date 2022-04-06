@@ -34,7 +34,7 @@ int cont = 0;
     
 while(cont < n_timepoints){
     
-    outFile << left << setw(5) << cont << setw(8) << PopulationRad[cont] << setw(8) << PopulationAct[cont] << endl;
+    outFile << left << setw(5) << cont*(t1/n_timepoints) << setw(8) << PopulationRad[cont] << setw(8) << PopulationAct[cont] << endl;
         
         cont++;
     
